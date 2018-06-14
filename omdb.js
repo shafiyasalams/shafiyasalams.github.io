@@ -1,6 +1,6 @@
 function runThatQuery() {
   console.log ("This runThatQuery function was working");
-  var baseUrl = "http://www.omdbapi.com/?"; 
+  var baseUrl = "https://www.omdbapi.com/?"; 
   var searchQuery = $( "#movieTitleID" ).val();
   var myapikey = "7f6405e4";
   var moviesSearchUrl = baseUrl + 'apikey=' + myapikey;
